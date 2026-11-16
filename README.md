@@ -1,4 +1,4 @@
-# qaLink
+# qaLink    [![Discord](https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&logoColor=white)](https://discord.gg/Jf5VzNHTuc)
 
 Improves Steam Link VR streaming and unlocks H.264 on the Steam Frame
 
