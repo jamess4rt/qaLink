@@ -14,7 +14,7 @@ For context: I'm an AV1 contributor and one of the admins in the main AV1 commun
 
 ## Requirements
 - Windows (Linux support planned after release)
-- SteamVR 2.18 or beta 2.19.3 -> I RECOMMEND BETA !! Both SteamOS & SteamVR
+- SteamVR 2.18 or beta 2.19.3 -> **I RECOMMEND BETA !! Both SteamOS & SteamVR**
 - An NVIDIA GPU (AMD support is experimental, but should work! Thx @ssllaakk for testing)
 - A Steam Frame (other headsets, such as a Quest, get HEVC only for now. It has not been tested a lot yet)
 - qaLink Client: SteamOS 0.5.6, 0.5.7, 0.5.8, 0.5.9 or 0.6.0, in developer mode, with a password for your user
