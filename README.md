@@ -1,16 +1,22 @@
 # qaLink    [![Discord](https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&logoColor=white)](https://discord.gg/Jf5VzNHTuc)
 
-Improves Steam Link VR streaming and unlocks H.264 on the Steam Frame
+Hello to all my fellow Framelings! 😎
+
+qaLink (pronounced "kayLink") is a plug-and-play tool that makes Steam Link VR a lot more stable and better looking. It exposes hidden *(and new)* settings, lets you switch the codec to H.264 and does a few other things
+
+My goal is that you don't have to tinker much: good defaults, no cargo culting, fewer issues. And BYE to Virtual Desktop!
+
+For context: I'm an AV1 contributor and one of the admins in the main AV1 community server
 
 ![qaLink's window while streaming](.github/images/qalink.png)
 
 <img src=".github/images/client-pairing.jpg" width="49%" alt="qaLink Client in the headset, before pairing"> <img src=".github/images/client-streaming.jpg" width="49%" alt="qaLink Client in the headset while streaming">
 
 ## Requirements
-- Windows
-- SteamVR 2.18 or beta 2.19.3
-- An NVIDIA GPU (AMD support is untested)
-- A Steam Frame (other headsets, such as a Quest, get HEVC only for now. It's largely untested)
+- Windows (Linux support planned after release)
+- SteamVR 2.18 or beta 2.19.3 -> I RECOMMEND BETA !! Both SteamOS & SteamVR
+- An NVIDIA GPU (AMD support is experimental, but should work! Thx @ssllaakk for testing)
+- A Steam Frame (other headsets, such as a Quest, get HEVC only for now. It has not been tested a lot yet)
 - qaLink Client: SteamOS 0.5.6, 0.5.7, 0.5.8, 0.5.9 or 0.6.0, in developer mode, with a password for your user
 
 ## Install
@@ -18,6 +24,7 @@ PC:
 1. Download `qaLink-x.y.z.zip` from [Releases](https://github.com/jamess4rt/qaLink/releases/latest) and unzip it to
    a folder it can stay in, such as `C:\qaLink`.
 2. Run `qalink.exe` and click **Install** in the Overview section. Restart SteamVR if it is running.
+3. Connect with your headset to Steam Link and enjoy! Adjust settings like you want
 #
 Steam Frame: open Konsole and run
 ```
@@ -33,9 +40,19 @@ Make sure to use the same qaLink version on the PC and the Frame.
 - Frame: `sudo /etc/qalink-client/qalink-client uninstall`
 
 ## License
-[PolyForm Strict 1.0.0](LICENSE.md): free for noncommercial use; no changes or redistribution. For commercial use,
-contact the author on [Ko-fi](https://ko-fi.com/jamess4rt). Third-party licenses: `THIRD_PARTY_NOTICES.txt` in the
-zip. Provided as is, without warranty.
+[PolyForm Strict 1.0.0](LICENSE.md): free for noncommercial use; no changes or redistribution.
+
+For commercial use, contact me.
+
+Third-party license notices: `THIRD_PARTY_NOTICES.txt` in the zip. Provided as is, without warranty.
 
 qaLink is not affiliated with Valve, NVIDIA or AMD. Steam, SteamVR, Steam Link and Steam Frame are trademarks of
 Valve Corporation; NVIDIA and NVENC of NVIDIA Corporation; AMD of Advanced Micro Devices, Inc.
+
+## Was AI used in this project?
+
+Yes, as a tool. I used it mainly for reverse engineering, research, data gathering, reviewing code, and a loooooot of unattended testing over night (even had burn-in on my Frame for a moment!!). It also helped me debug problems and automate parts of my workflow
+
+The AMF (AMD) part is the exception: I don't have an AMD GPU, so it's fully vibe coded, from my AMF experience without testing on real hardware. Some users already reported that it works well! :)
+
+All of this took ~260 hours of active work (tracked with ProcrastiTracker) in 2.5 weeks. I almost burned out, so I'm resting for a bit, but the next update and fixes are coming soon ♥
