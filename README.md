@@ -17,7 +17,7 @@ For context: I'm an AV1 contributor and one of the admins in the main AV1 commun
 - SteamVR 2.18 or beta 2.19.3 -> **I RECOMMEND BETA !! Both SteamOS & SteamVR**
 - An NVIDIA GPU (AMD support is experimental, but should work! Thx @ssllaakk for testing)
 - A Steam Frame (other headsets, such as a Quest, get HEVC only for now. It has not been tested a lot yet)
-- qaLink Client: SteamOS 0.5.6, 0.5.7, 0.5.8, 0.5.9 or 0.6.0, in developer mode, with a password for your user
+- qaLink Client: SteamOS beta 0.5.6, 0.5.7, 0.5.8, 0.5.9 or 0.6.0, in developer mode, with a password for your user
 
 ## Install
 PC:
@@ -26,17 +26,17 @@ PC:
 2. Run `qalink.exe` and click **Install** in the Overview section. Restart SteamVR if it is running.
 3. Connect with your headset to Steam Link and enjoy! Adjust settings like you want
 #
-Steam Frame: open Konsole and run
+Steam Frame: open Konsole and run (you can copy that from Chrominium on your Frame)
 ```
 curl -fsSL https://github.com/jamess4rt/qaLink/releases/latest/download/client.sh | bash
 ```
 
 Type the pairing code it prints into the **qaLink Client** section on the PC and click **Pair**
 
-Make sure to use the same qaLink version on the PC and the Frame.
+Make sure to use the same qaLink version on the PC and the Frame
 
 ## Uninstall
-- PC: click **Uninstall** in the Overview section, then delete the folder.
+- PC: click **Uninstall** in the Overview section, then delete the folder
 - Frame: `sudo /etc/qalink-client/qalink-client uninstall`
 
 ## License
@@ -51,7 +51,7 @@ Valve Corporation; NVIDIA and NVENC of NVIDIA Corporation; AMD of Advanced Micro
 
 ## Was AI used in this project?
 
-Yes, as a tool. I used it mainly for reverse engineering, research, data gathering, reviewing code, and a loooooot of unattended testing over night (even had burn-in on my Frame for a moment!!). It also helped me debug problems and automate parts of my workflow
+Yes, as a tool. I used it mainly for reverse engineering, research, data gathering, legal stuff, reviewing code, and a loooooot of unattended testing over night (even had burn-in on my Frame for a moment!!). It also helped me debug problems and automate parts of my workflow
 
 The AMF (AMD) part is the exception: I don't have an AMD GPU, so it's fully vibe coded, from my AMF experience without testing on real hardware. Some users already reported that it works well! :)
 
