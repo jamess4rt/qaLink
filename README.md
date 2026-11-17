@@ -11,6 +11,15 @@ For context: I'm an AV1 contributor and one of the admins in the main AV1 commun
 ![qaLink's window while streaming](.github/images/qalink.png)
 
 <img src=".github/images/client-pairing.jpg" width="49%" alt="qaLink Client in the headset, before pairing"> <img src=".github/images/client-streaming.jpg" width="49%" alt="qaLink Client in the headset while streaming">
+#
+### Early reactions to qaLink 1.0.0
+<p align="center"><img src=".github/images/reviews-montage.png" width="100%" alt="Tester reviews of qaLink"></p>
+
+#
+
+<p align="center"><img src=".github/images/comparison.png" width="100%" alt="Steam Link (left) vs qaLink (right), Compressed Steam Frame screenshot; the difference is larger in the headset."></p>
+<p align="center"><img src=".github/images/comparison-2.png" width="100%" alt="Steam Link (left) vs qaLink (right), Compressed Steam Frame screenshot; the difference is larger in the headset."></p>
+<p align="center"><em>Steam Frame screenshot (compressed). The difference is even bigger in the headset</em></p>
 
 ## Requirements
 - Windows (Linux support planned after release)
