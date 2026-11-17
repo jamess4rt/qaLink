@@ -48,6 +48,20 @@ Make sure to use the same qaLink version on the PC and the Frame
 - PC: click **Uninstall** in the Overview section, then delete the folder
 - Frame: `sudo /etc/qalink-client/qalink-client uninstall`
 
+## Why closed source (for now)
+
+This is my decision, and I take full responsibility for it. qaLink is a passion project. I started it because I was very disappointed by the streaming quality of the Steam Frame, and I built it mainly for myself. I'm happy that it helps others too
+
+For now, I'm keeping the source closed so the project can't be copied or taken over while it's still young. It will go open source in the future
+
+## Was AI used in this project?
+
+Yes, as a tool. I used it mainly for reverse engineering, research, data gathering, legal stuff, reviewing code, and a loooooot of unattended testing over night (even had burn-in on my Frame for a moment!!). It also helped me debug problems and automate parts of my workflow
+
+The AMF (AMD) part is the exception: I don't have an AMD GPU, so it's fully vibe coded, from my AMF experience without testing on real hardware. Some users already reported that it works well! :)
+
+All of this took ~260 hours of active work (tracked with ProcrastiTracker) in 2.5 weeks. I almost burned out, so I'm resting for a bit, but the next update and fixes are coming soon ♥
+
 ## License
 [PolyForm Strict 1.0.0](LICENSE.md): free for noncommercial use; no changes or redistribution.
 
@@ -57,11 +71,3 @@ Third-party license notices: `THIRD_PARTY_NOTICES.txt` in the zip. Provided as i
 
 qaLink is not affiliated with Valve, NVIDIA or AMD. Steam, SteamVR, Steam Link and Steam Frame are trademarks of
 Valve Corporation; NVIDIA and NVENC of NVIDIA Corporation; AMD of Advanced Micro Devices, Inc.
-
-## Was AI used in this project?
-
-Yes, as a tool. I used it mainly for reverse engineering, research, data gathering, legal stuff, reviewing code, and a loooooot of unattended testing over night (even had burn-in on my Frame for a moment!!). It also helped me debug problems and automate parts of my workflow
-
-The AMF (AMD) part is the exception: I don't have an AMD GPU, so it's fully vibe coded, from my AMF experience without testing on real hardware. Some users already reported that it works well! :)
-
-All of this took ~260 hours of active work (tracked with ProcrastiTracker) in 2.5 weeks. I almost burned out, so I'm resting for a bit, but the next update and fixes are coming soon ♥
