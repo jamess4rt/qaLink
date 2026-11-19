@@ -1,3 +1,7 @@
+> [!IMPORTANT]
+> ## qaLink 1.1.0 is coming soon™!!
+> **Ready for SteamOS 0.5.10 and SteamVR 2.19.4 (beta)**
+
 # qaLink    [![Discord](https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&logoColor=white)](https://discord.gg/Jf5VzNHTuc)
 
 Hello to all my fellow Framelings! 😎
