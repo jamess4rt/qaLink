@@ -26,27 +26,26 @@ For context: I'm an AV1 contributor and one of the admins in the main AV1 commun
 <p align="center"><em>Steam Frame screenshot (compressed). The difference is even bigger in the headset</em></p>
 
 ## Requirements
-- Windows (Linux support planned after release)
-- SteamVR 2.18 or beta 2.19.3 -> **I RECOMMEND BETA !! Both SteamOS & SteamVR**
-- An NVIDIA GPU (AMD support is experimental, but should work! Thx @ssllaakk for testing)
-- A Steam Frame (other headsets, such as a Quest, get HEVC only for now. It has not been tested a lot yet)
-- qaLink Client: SteamOS beta 0.5.6, 0.5.7, 0.5.8, 0.5.9 or 0.6.0, in developer mode, with a password for your user
+- Windows 10/11 (Linux support is planned)
+- SteamVR 2.18 or beta 2.19.4 -> **I RECOMMEND BETA !! Both SteamOS & SteamVR**
+- An NVIDIA GPU (AMD support is experimental, thx @ssllaakk & @meepowski for testing!)
+- Steam Frame, Quest 3/3S/2, or any other headset that can use Steam Link and HEVC
+
+qaLink **Client** is only for the Steam Frame for now, and needs SteamOS beta 0.5.6/7/8/9/10, with developer mode enabled and a password for your user. The client lets you switch to H.264, see the Frame decode time, and interact with qaLink and your PC right from the headset
 
 ## Install
-PC:
-1. Download `qaLink-x.y.z.zip` from [Releases](https://github.com/jamess4rt/qaLink/releases/latest) and unzip it to
-   a folder it can stay in, such as `C:\qaLink`.
-2. Run `qalink.exe` and click **Install** in the Overview section. Restart SteamVR if it is running.
-3. Connect with your headset to Steam Link and enjoy! Adjust settings like you want
-#
-Steam Frame: open Konsole and run (you can copy that from Chrominium on your Frame)
-```
-curl -fsSL https://github.com/jamess4rt/qaLink/releases/latest/download/client.sh | bash
-```
+**PC**
+1. Download the latest [release](https://github.com/jamess4rt/qaLink/releases/latest) and unzip it to a folder it can stay in, such as `C:\qaLink`
+2. Run `qalink.exe` and click **Install** in the Overview section
+3. Connect your headset to Steam Link and enjoy!
 
-Type the pairing code it prints into the **qaLink Client** section on the PC and click **Pair**
-
-Make sure to use the same qaLink version on the PC and the Frame
+**qaLink Client** (Steam Frame)
+1. Open Konsole and run this (you can copy it from Chromium on your Frame):
+   ```
+   curl -fsSL https://github.com/jamess4rt/qaLink/releases/latest/download/client.sh | bash
+   ```
+2. Type the pairing code it shows into the qaLink Client section on your PC and click **Pair**
+3. Open qaLink from the SteamVR dashboard in the headset and enjoy!!
 
 ## Uninstall
 - PC: click **Uninstall** in the Overview section, then delete the folder
