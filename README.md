@@ -33,7 +33,7 @@ For context: I'm an AV1 contributor and one of the admins in the main AV1 commun
 - Windows 10/11 (Linux support is planned)
 - SteamVR 2.18 or beta 2.19.3
 - An NVIDIA GPU (AMD support is experimental, thx @ssllaakk & @meepowski for testing!)
-- Steam Frame, Quest 3/3S/2, or any other headset that can use Steam Link and HEVC
+- Steam Frame, Quest 3/3S/2, or any other headset that can use Steam Link and decode HEVC
 
 qaLink **Client** is only for the Steam Frame for now, and needs SteamOS beta 0.5.6/7/8/9, with developer mode enabled and a password for your user. The client lets you switch to H.264, see the Frame decode time, and interact with qaLink and your PC right from the headset
 
