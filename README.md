@@ -2,6 +2,10 @@
 > ## qaLink 1.1.0 is coming soon™!!
 > **Ready for SteamOS 0.5.10 and SteamVR 2.19.4 (beta)**
 
+> [!WARNING]
+> ## 1.0.0 isn't compatible with current latest betas ! Please wait for 1.1.0, it's currently being play tested by my contributors
+
+
 # qaLink    [![Discord](https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&logoColor=white)](https://discord.gg/Jf5VzNHTuc)
 
 Hello to all my fellow Framelings! 😎
@@ -25,13 +29,13 @@ For context: I'm an AV1 contributor and one of the admins in the main AV1 commun
 <p align="center"><img src=".github/images/comparison-2.png" width="100%" alt="Steam Link (left) vs qaLink (right), Compressed Steam Frame screenshot; the difference is larger in the headset."></p>
 <p align="center"><em>Steam Frame screenshot (compressed). The difference is even bigger in the headset</em></p>
 
-## Requirements
+## Requirements (1.0.0)
 - Windows 10/11 (Linux support is planned)
-- SteamVR 2.18 or beta 2.19.4 -> **I RECOMMEND BETA !! Both SteamOS & SteamVR**
+- SteamVR 2.18 or beta 2.19.3
 - An NVIDIA GPU (AMD support is experimental, thx @ssllaakk & @meepowski for testing!)
 - Steam Frame, Quest 3/3S/2, or any other headset that can use Steam Link and HEVC
 
-qaLink **Client** is only for the Steam Frame for now, and needs SteamOS beta 0.5.6/7/8/9/10, with developer mode enabled and a password for your user. The client lets you switch to H.264, see the Frame decode time, and interact with qaLink and your PC right from the headset
+qaLink **Client** is only for the Steam Frame for now, and needs SteamOS beta 0.5.6/7/8/9, with developer mode enabled and a password for your user. The client lets you switch to H.264, see the Frame decode time, and interact with qaLink and your PC right from the headset
 
 ## Install
 **PC**
