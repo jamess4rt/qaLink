@@ -65,7 +65,7 @@ For now, I'm keeping the source closed so the project can't be copied or taken o
 
 Yes, as a tool. I used it mainly for reverse engineering, research, data gathering, legal stuff, reviewing code, and a loooooot of unattended testing over night (even had burn-in on my Frame for a moment!!). It also helped me debug problems and automate parts of my workflow
 
-The AMF (AMD) part is the exception: I don't have an AMD GPU, so it's fully vibe coded, from my AMF experience without testing on real hardware. Some users already reported that it works well! :)
+The AMF (AMD) part is the exception: I don't have an AMD GPU, so it's fully vibe coded, from my AMF experience without testing on real hardware. It's highly experimental and on going a rework for 1.1.0
 
 All of this took ~260 hours of active work (tracked with ProcrastiTracker) in 2.5 weeks. I almost burned out, so I'm resting for a bit, but the next update and fixes are coming soon ♥
 
