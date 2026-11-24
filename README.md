@@ -1,9 +1,10 @@
 > [!IMPORTANT]
 > ## qaLink 1.1.0 is coming soon™!!
-> **Ready for SteamOS 0.5.10 and SteamVR 2.19.4 (beta)**
+> **Ready for SteamOS 0.5.10 and SteamVR 2.19.4 (beta)**\
+> Split Eyes Encoding, Custom Sharpening, Smoother/Faster Foveation, Improved Stream Stability, Reworked UI, and much more
 
 > [!WARNING]
-> ## 1.0.0 isn't compatible with current latest betas ! Please wait for 1.1.0, it's currently being play tested by my contributors
+> ## 1.0.0 isn't supported on latest betas ! Please wait for 1.1.0, it's currently being play tested by my contributors
 
 
 # qaLink    [![Discord](https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&logoColor=white)](https://discord.gg/Jf5VzNHTuc)
@@ -67,7 +68,7 @@ Yes, as a tool. I used it mainly for reverse engineering, research, data gatheri
 
 The AMF (AMD) part is the exception: I don't have an AMD GPU, so it's fully vibe coded, from my AMF experience without testing on real hardware. It's highly experimental and on going a rework for 1.1.0
 
-All of this took ~260 hours of active work (tracked with ProcrastiTracker) in 2.5 weeks. I almost burned out, so I'm resting for a bit, but the next update and fixes are coming soon ♥
+All of this took ~260 hours of active work (tracked with ProcrastiTracker) in 3 weeks. I almost burned out, so I'm resting for a bit, but the next update and fixes are coming soon ♥
 
 ## License
 [PolyForm Strict 1.0.0](LICENSE.md): free for noncommercial use; no changes or redistribution.
