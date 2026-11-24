@@ -7,7 +7,10 @@
 > ## 1.0.0 isn't supported on latest betas ! Please wait for 1.1.0, it's currently being play tested by my contributors
 
 
-# qaLink    [![Discord](https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&logoColor=white)](https://discord.gg/Jf5VzNHTuc)
+# qaLink
+[![Discord](https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&logoColor=white)](https://discord.gg/Jf5VzNHTuc)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support-FF5E5B?logo=ko-fi&logoColor=white)](https://ko-fi.com/jamess4rt)
+
 
 Hello to all my fellow Framelings! 😎
 
