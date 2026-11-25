@@ -1,7 +1,8 @@
 > [!IMPORTANT]
 > ## qaLink 1.1.0 is coming soon™!!
 > **Ready for SteamOS 0.5.10 and SteamVR 2.19.4 (beta)**\
-> Split Eyes Encoding, Custom Sharpening, Smoother/Faster Foveation, Improved Stream Stability, Reworked UI, and much more
+> Split Eyes Encoding, Custom Sharpening, Smoother/Faster Foveation, Improved Stream Stability, Reworked UI, and much more\
+> **2026-11-25 : DOUBLE ENCODE LATENCY ISSUE FIXED !! NOW THE STREAMING IS LIKE CRYSTAL SMOOTH. AFFECT ALL HEADSETS**
 
 > [!WARNING]
 > ## 1.0.0 isn't supported on latest betas ! Please wait for 1.1.0, it's currently being play tested by my contributors
