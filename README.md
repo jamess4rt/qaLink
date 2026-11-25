@@ -1,14 +1,9 @@
 > [!IMPORTANT]
-> ## qaLink 1.1.0 is coming soon™!!
+> ## The next big version of qaLink is in preparation!
 > Split Eyes Encoding, Custom Sharpening, Smoother/Faster Foveation, Improved Stream Stability, Reworked UI, and much more\
 > **2026-11-25 : DOUBLE ENCODE LATENCY ISSUE FIXED !! NOW THE STREAMING IS LIKE CRYSTAL SMOOTH. AFFECT ALL HEADSETS**
-
-> [!WARNING]
-> ## 1.0.0 isn't supported on the latest betas! ⬇️⬇️ 2026-11-25
-> **1.0.1 is going to be released in the next hour to add compatibility with them and port some fixes from dev branch**
-> - AMD/Intel encoding will switch to Steam Link default for the moment, so those users can use other qaLink features and stability fixes
-> - This is of course not the targeted experience, but I don't have either GPU to implement the same level of features as on NVIDIA
-
+> 
+> **It will be released on Steam, if Valve gives me their agreement first**
 
 # qaLink
 [![Discord](https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&logoColor=white)](https://discord.gg/Jf5VzNHTuc)
