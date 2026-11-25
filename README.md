@@ -1,12 +1,13 @@
 > [!IMPORTANT]
 > ## qaLink 1.1.0 is coming soon™!!
-> **Ready for SteamOS 0.5.11 and SteamVR 2.19.5 (beta)**\
 > Split Eyes Encoding, Custom Sharpening, Smoother/Faster Foveation, Improved Stream Stability, Reworked UI, and much more\
 > **2026-11-25 : DOUBLE ENCODE LATENCY ISSUE FIXED !! NOW THE STREAMING IS LIKE CRYSTAL SMOOTH. AFFECT ALL HEADSETS**
 
 > [!WARNING]
-> ## 1.0.0 isn't supported on latest betas ! ⬇️⬇️
-> **1.0.1 is going to release to add compat for it and change the resolution options**
+> ## 1.0.0 isn't supported on the latest betas! ⬇️⬇️ 2026-11-25
+> **1.0.1 is going to be released in the next hour to add compatibility with them and port some fixes from dev branch**
+> - AMD/Intel encoding will switch to Steam Link default for the moment, so those users can use other qaLink features and stability fixes
+> - This is of course not the targeted experience, but I don't have either GPU to implement the same level of features as on NVIDIA
 
 
 # qaLink
@@ -35,13 +36,13 @@ For context: I'm an AV1 contributor and one of the admins in the main AV1 commun
 <p align="center"><img src=".github/images/comparison-2.png" width="100%" alt="Steam Link (left) vs qaLink (right), Compressed Steam Frame screenshot; the difference is larger in the headset."></p>
 <p align="center"><em>Steam Frame screenshot (compressed). The difference is even bigger in the headset</em></p>
 
-## Requirements (1.0.0)
+## Requirements
 - Windows 10/11 (Linux support is planned)
-- SteamVR 2.18 or beta 2.19.3
-- An NVIDIA GPU (AMD support is experimental and not really working, thx @ssllaakk & @meepowski for testing!)
+- SteamVR beta 2.19.5
+- An NVIDIA GPU (AMD/Intel improved encoding isn't implemented yet, but you can use the other qaLink features)
 - Steam Frame, Quest 3/3S/2, or any other headset that can use Steam Link and decode HEVC
 
-qaLink **Client** is only for the Steam Frame for now, and needs SteamOS beta 0.5.6/7/8/9, with developer mode enabled and a password for your user. The client lets you switch to H.264, see the Frame decode time, and interact with qaLink and your PC right from the headset
+qaLink **Client** is only for the Steam Frame for now, and needs **SteamOS beta 0.5.11**, with developer mode enabled and a password for your user. The client lets you switch to H.264, see the Frame decode time, and interact with qaLink and your PC right from the headset
 
 ## Install
 **PC**
@@ -70,8 +71,6 @@ For now, I'm keeping the source closed so the project can't be copied or taken o
 ## Was AI used in this project?
 
 Yes, as a tool. I used it mainly for reverse engineering, research, data gathering, legal stuff, reviewing code, and a loooooot of unattended testing over night (even had burn-in on my Frame for a moment!!). It also helped me debug problems and automate parts of my workflow
-
-The AMF (AMD) part is the exception: I don't have an AMD GPU, so it's fully vibe coded, from my AMF experience without testing on real hardware. It's highly experimental and on going a rework for 1.1.0
 
 All of this took ~260 hours of active work (tracked with ProcrastiTracker) in 3 weeks. I almost burned out, so I'm resting for a bit, but the next update and fixes are coming soon ♥
 
