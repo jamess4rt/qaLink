@@ -1,6 +1,6 @@
 > [!IMPORTANT]
 > ## The next big version of qaLink is in preparation!
-> Split Eyes Encoding, Custom Sharpening, Smoother/Faster Foveation, Improved Stream Stability, Reworked UI, and much more\
+> Even Lower Latency, Custom Sharpening, Smoother/Faster Foveation, Improved Stream Stability, Reworked UI, and much more\
 > **2026-11-25 : DOUBLE ENCODE LATENCY ISSUE FIXED !! NOW THE STREAMING IS LIKE CRYSTAL SMOOTH. AFFECT ALL HEADSETS**
 > 
 > **It will be released on Steam, if Valve gives me their agreement first**
